@@ -374,15 +374,14 @@
     background:radial-gradient(130% 120% at 50% 0%,#f3ffff 0%,#d6fcff 70%,#cffbff 100%);box-shadow:0 -6px 18px rgba(0,0,0,.06);
     transition:transform .6s var(--ease),opacity .4s var(--ease)}
   .stage[data-tutor="on"] .pill{transform:translateY(110px);opacity:0;pointer-events:none}
-  .nav{position:absolute;left:0;top:14px;width:100%;height:54px;padding:0 4px;display:flex;align-items:center}
+  .nav{position:absolute;left:0;top:18px;width:100%;height:54px;padding:0 15px;display:flex;align-items:center}
   .nav-item{position:relative;flex:1 1 0;min-width:0;height:54px;border:0;background:transparent;padding:0;cursor:pointer;color:#141414;
-    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;white-space:nowrap;margin:0;-webkit-tap-highlight-color:transparent;
-    font:500 11.5px/1.1 var(--font-hm);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;white-space:nowrap;margin:0;-webkit-tap-highlight-color:transparent;
+    font:500 12px/13px var(--font-hm);letter-spacing:0;
     transition:color .3s var(--ease)}
-  .nav-item svg{flex:none;width:23px;height:23px;transition:transform .25s var(--ease)}
+  .nav-item svg{flex:none;width:22px;height:22px;transition:transform .25s var(--ease)}
   .nav-item .lbl{display:block}
-  .nav-item{border:2px solid transparent;border-radius:26px;height:50px;margin:0 2px;transition:color .3s var(--ease),background-color .35s var(--ease),border-color .35s var(--ease),box-shadow .4s var(--ease)}
-  .nav-item[aria-current="page"]{background:#1aadb2;border-color:#0f7a7e;color:#fff;box-shadow:0 6px 14px -6px rgba(0,110,115,.55)}
+  .nav-item[aria-current="page"]{color:#0db3b3}
   .nav-item:not([aria-current="page"]):active svg{transform:scale(.88)}
   .nav-item:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 
@@ -2391,7 +2390,7 @@
         <button type="button" class="nav-item" data-tab="learn" aria-label="Learn (AI Books)" style="--aw:92px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.6C9.9 5 6.9 4.5 3.6 5v11.7c3.2-.4 6.2.1 8.4 1.7 2.2-1.6 5.2-2.1 8.4-1.7V5c-3.3-.5-6.3 0-8.4 1.6z"/><path d="M12 6.6v11.8"/></svg><span class="lbl">Learn</span></button>
         <button type="button" class="nav-item" data-tab="shorts" aria-label="YoShorts" style="--aw:112px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.4 6.1v11.8c0 1 1.1 1.6 2 1l8.9-5.9c.8-.5.8-1.6 0-2.1L9.4 5.1c-.9-.6-2 0-2 1z"/></svg><span class="lbl">Yo Shorts</span></button>
         <button type="button" class="nav-item" data-tab="practice" aria-label="Practice" style="--aw:102px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3.2v3M15 3.2v3"/><path d="M12.3 20.2H7.4A3.4 3.4 0 0 1 4 16.8V8.6a3.4 3.4 0 0 1 3.4-3.4h7.2A3.4 3.4 0 0 1 18 8.6v3.4"/><path d="M4.2 9.6h13.6"/><path d="M19.8 14.4l-5.2 5.2-2.6.6.6-2.6 5.2-5.2z"/></svg><span class="lbl">Practice</span></button>
-        <button type="button" class="nav-item" data-tab="account" aria-label="My Account" style="--aw:128px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7.7" r="3.5"/><path d="M4.6 20c.5-3.9 3.6-6.2 7.4-6.2s6.9 2.3 7.4 6.2"/></svg><span class="lbl">Account</span></button>
+        <button type="button" class="nav-item" data-tab="account" aria-label="My Account" style="--aw:128px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7.7" r="3.5"/><path d="M4.6 20c.5-3.9 3.6-6.2 7.4-6.2s6.9 2.3 7.4 6.2"/></svg><span class="lbl">My Account</span></button>
       </nav>
     </div>
 
